@@ -1,0 +1,113 @@
+# PyCharm
+.idea/
+.RData
+.Rhistory
+
+# folders to ignore
+dev/
+#results/
+#results_*/
+
+# Data
+data/*.RData
+
+# sphinx
+docs/_build
+
+# scikit-learn
+doc/
+doc/_build/
+doc/auto_examples/
+doc/modules/generated/
+doc/datasets/generated/
+ci_scripts/
+skltemplate/
+
+# other
+examples/paper/results
+*.pickle
+
+# jekyll
+*.yml
+.nojekyll
+
+# Notes
+*.ft
+
+# odyssey
+*.command
+
+# directories
+local/
+.RData
+.Rhistory
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# General
+*.DS_Store
+
+#iPython notebooks
+*.ipynb_checkpoints
+
+
+# C extensions
+*.so
+*.egg-info
+
+# Distribution / packaging
+.pytest_cache
+.Python
+env/
+venv/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# PyInstaller
+#  Usually these files are written by a python script from a template
+#  before PyInstaller builds the exe
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+
+htmlcov/
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*,cover
+.hypothesis/
+
+# Translations
+*.mo
+*.pot
+
+# Django stuff:
+*.log
+
+# PyBuilder
+target/
+
+.Rproj.user
